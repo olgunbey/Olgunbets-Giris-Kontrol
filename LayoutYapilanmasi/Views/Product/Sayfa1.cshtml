@@ -1,0 +1,34 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model LayoutYapilanmasi.Models.Products.ProductControl
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section solmenu{
+    <div asp-validation-summary="All"></div>
+}
+ <script src="~/lib/jquery/jquery.min.js"></script>
+ <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+ <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+<form asp-action="Sayfa1" asp-controller="Product" method="post">
+    <label>ADINIZI GIRIN: </label>
+    <input type="text" asp-for="ad" />
+    <br />
+    <span asp-validation-for="ad"></span>
+    <br />
+    <label>SOYADINIZI GIRIN: </label>
+    <input type="text" asp-for="soyad" />
+    <br />
+    <span asp-validation-for="soyad"></span>
+    <br />
+    <label>EMAIL GIRIN: </label>
+    <input type="text" asp-for="email" /> 
+    <br />
+    <span asp-validation-for="email"></span>
+    <br />
+    <button>Gönder</button>
+</form>
+
+
+

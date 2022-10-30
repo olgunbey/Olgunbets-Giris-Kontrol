@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "SUzoTMOT5cn6Abi4auzW9o5K2rOYPp0BoyE3bOUWQtVsAl9dyE5G/sg9V3f8Glg5Tp0zbOB0zLwfcIxc7oX1xQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\c#\\ASP.NET\\LayoutYapilanmasi\\LayoutYapilanmasi\\LayoutYapilanmasi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olgun\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\olgun\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\olgun\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\olgun\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
